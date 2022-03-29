@@ -1,0 +1,14 @@
+{
+	"name": "mqtt",
+	"version": "0.1.0",
+	"description": "A node.js and MQTT demo",
+	"scripts": {
+		"roda-publisher": "nodemon publisher.js",
+		"roda-subscriber": "nodemon subscriber.js"
+	},
+	"dependencies": {
+		"dotenv": "^16.0.0",
+		"mqtt": "^4.3.7",
+		"nodemon": "^2.0.15"
+	}
+}
